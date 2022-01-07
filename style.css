@@ -1,0 +1,84 @@
+body {
+
+}
+
+.header-box {
+    background-color: #1f2937;
+    display: flex;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.website-box {
+    display: flex;
+
+}
+
+.title {
+
+}
+
+.subtext {
+
+}
+
+.button {
+
+}
+
+.button.white {
+
+}
+
+.information-box {
+    display: flex;
+}
+
+.info {
+
+}
+
+.img-info {
+
+}
+
+.text {
+
+}
+
+.thor-box {
+    display: flex;
+}
+
+.quote {
+
+}
+
+.thor {
+
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-text {
+
+}
+
+.footer-subtext {
+
+}
