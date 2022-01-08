@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+body > * {
+    flex: 0 1 25%;
+}
+
 .header-box {
     background-color: #1f2937;
     display: flex;
@@ -50,25 +54,20 @@ a {
     color: white;
 }
 
-.button.white {
-    border-color: white;
-    
-}
-
 .information-box {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 58px;
-    padding: 25px;
+    gap: 100px;
+    padding: 20px;
 }
 .random {
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    padding-top: 15px;
+    padding-top: 1px;
 }
 .info {
     max-width: 200px;
@@ -86,7 +85,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .quote {
@@ -102,12 +100,32 @@ a {
 
 .footer {
     display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 10px;
+    height: 200px;
+}
+.footer-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 100px;
 }
 
 .footer-text {
-
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer-subtext {
+    color: white;
+    font-size: 16px;
+}
 
+.button.white {
+    outline-color: white;
+    align-self: center;
+    margin: 0 auto;
 }
