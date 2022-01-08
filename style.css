@@ -51,18 +51,21 @@ a {
 
 .information-box {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
 }
-
+.random {
+    margin-bottom: 100px;
+}
 .info {
-
+    max-width: 200px;
 }
 
 .img-info {
-
-}
-
-.text {
-
+    width: 100px;
+    height: 100px;
 }
 
 .thor-box {
