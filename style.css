@@ -42,6 +42,12 @@ a {
 
 .button {
     background-color: #3882f6;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
 }
 
 .button.white {
@@ -55,29 +61,43 @@ a {
     justify-content: center;
     align-items: center;
     gap: 58px;
+    padding: 25px;
 }
 .random {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 15px;
 }
 .info {
     max-width: 200px;
 }
 
-.img-info {
+.info-img {
     width: 100px;
     height: 100px;
 }
 
 .thor-box {
     display: flex;
+    background-color: #eee;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .quote {
-
+    font-style: italic;
+    font-size: 28px;
+    width: 500px;
 }
 
 .thor {
-
+    font-weight: bold;
+    padding-left: 50px;
 }
 
 .footer {
