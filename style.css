@@ -1,46 +1,52 @@
 body {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .header-box {
     background-color: #1f2937;
     display: flex;
+    flex-wrap: wrap;
 }
 
-li {
+.links {
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
+    flex: 1;
 }
 
 a {
     text-decoration: none;
 }
 
-.header {
+.logo {
     font-size: 24px;
     color: #f9faf8;
+    flex: 50%;
 }
 
-.website-box {
-    display: flex;
-
-}
 
 .title {
-
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex: 50%;
 }
 
 .subtext {
-
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 100%;
 }
 
 .button {
-
+    background-color: #3882f6;
 }
 
 .button.white {
-
+    border-color: white;
+    
 }
 
 .information-box {
